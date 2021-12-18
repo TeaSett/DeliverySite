@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
     <head>
         <meta charset="UTF-8">
         <title>Сотрудничество</title>
@@ -14,18 +14,31 @@
                 <a href="addresses.html">Отделения</a>
             </nav>
         </header>
-        <hr>
-        <section>
-            <h1>Сотрудничество</h1>
-            <img src="images/call.jpeg">
-            <h3>Наши партнёры:</h3>
-            <p>Ozon Amazon Wildberries AliExpress Yandex.Market Citilink M.Video Eldorado IKEA</p>
-        </section>
-        <hr>
-        <section>
-            <h1>Трудоустройство</h1>
-            <h3>Отправить резюме:</h3>
-            
-        </section>
+        <main>
+            <hr>
+            <section>
+                <h1>Сотрудничество</h1>
+                <img src="images/call.jpeg">
+                <h3>Наши партнёры:</h3>
+                <p>Ozon Amazon Wildberries AliExpress Yandex.Market Citilink M.Video Eldorado IKEA</p>
+                <h3>По вопросам сотрудничества можете написать нам на почту</h3>
+                <form action="mailto:lobastov5442@gmail.com" method="get">
+                    <input type="hidden" name="subject" value="Для сотрудничества" />
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="body"></textarea>
+                    <input type="submit" value="Send" />
+                </form>
+            </section>
+            <hr>
+            <section>
+                <h1>Трудоустройство</h1>
+                <h3>Отправить резюме:</h3>
+                <form enctype="multipart/form-data" action="" method="post">
+                    <p><input type="file" name="f">
+                    <input type="submit" value="Отправить"></p>
+                </form> 
+            </section>
+        </main>
+        
     </body>
 </html>
