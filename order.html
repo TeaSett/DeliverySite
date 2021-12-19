@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
     <head>
         <meta charset="UTF-8">
         <title>Оформление заказа</title>
@@ -18,7 +18,23 @@
             <main>
                 <hr>
                 <section>
-            
+                    <form method="get">
+                        <table style="margin-left: auto; margin-right: auto; text-align: left;">
+                            <tr>
+                                <td><label for="addr">Адрес:</label></td>
+                                <td><input id="addr" type="text" /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="item">Ссылка на товар:</label></td>
+                                <td><input id="item" type="text"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="check">Ссылка на чек:</label></td>
+                                <td><input id="check" type="text"></td>
+                            </tr>
+                        </table>
+                        <input type="submit" value="Заказать" />
+                    </form>
                 </section>
             </main>
             <aside class="left-sidebar"></aside>
