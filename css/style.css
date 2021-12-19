@@ -7,7 +7,6 @@
 body {
     color: white;
     font-size: 24px;
-    line-height: 3;
 }
 header {
     background: orangered;
@@ -48,7 +47,8 @@ footer {
         text-align: center;
         flex: 5;
         order: 2;
-        min-height: 80vh;
+        min-height: 82vh;
+        line-height: 3;
     }
     .left-sidebar {
         order: 1;
@@ -71,6 +71,10 @@ footer {
     width: 30%;
 }
 
+.biggerimag {
+    width: 50%;
+}
+
 .logo {
     margin-left: 50px;
     height: 100%;
@@ -88,12 +92,81 @@ nav {
 }
 
 a {
+    line-height: 2;
+    display: inline-block;
     text-decoration: none;
-    
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.15s ease-in-out;
 }
+
+.navigation a {
+    border-radius: 10px;
+    color: #CEA640;
+    background: #FFF79A;
+    border-bottom: 2px solid #E1B442;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+ }
+ .navigation a:hover {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    border-bottom: 0px solid #E1B442;
+    /* text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3); */
+ }
 
 p {
     font-size: 16px;
     line-height: 23px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    line-height: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h5 {
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bott {
+    margin-bottom: 40px;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18;
+}
+
+form input[type="submit"] {
+    appearance:none;
+    -webkit-appearance:none;
+
+    line-height: 2;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    padding: 0px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.15s ease-in-out;
+
+    border-radius: 10px;
+    color: #CEA640;
+    background: #FFF79A;
+    border: 2px solid #E1B442;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
