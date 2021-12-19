@@ -5,24 +5,28 @@
 }
 
 body {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 24px;
 }
 header {
-    background: orangered;
+    background: rgb(51, 49, 49);
 }
 main {
     text-align: center;
-    background: darkslateblue;
+    background: rgb(255, 255, 255);
 }
 footer {
-    background: deeppink;
+    background: rgb(51, 49, 49);
+}
+footer p {
+    color: #ffffff;
+    margin-top: 20px;
 }
 .left-sidebar {
-    background: dodgerblue;
+    background: rgb(237, 238, 240);
 }
 .right-sidebar {
-    background: forestgreen;
+    background: rgb(237, 238, 240);
 }
 
 .container {
@@ -125,14 +129,14 @@ a {
 
 .navigation a {
     border-radius: 10px;
-    color: #CEA640;
-    background: #FFF79A;
-    border-bottom: 2px solid #E1B442;
+    color: #242424;
+    background: #ffffff;
+    border-bottom: 2px solid #d1d1d1;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
  }
  .navigation a:hover {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-    border-bottom: 0px solid #E1B442;
+    border-bottom: 0px solid #a7a7a7;
     /* text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3); */
  }
 
@@ -186,8 +190,8 @@ form input[type="submit"] {
     transition: 0.15s ease-in-out;
 
     border-radius: 10px;
-    color: #CEA640;
-    background: #FFF79A;
-    border: 2px solid #E1B442;
+    color: #242424;
+    background: #ffffff;
+    border: 2px solid #d1d1d1;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
