@@ -73,14 +73,17 @@ footer p {
 
 textarea {
     width:30%;
-    resize: vertical;
-    padding:15px;
+    margin-top: 15px;
+    resize: none;
+    padding:12px;
     border-radius:15px;
     border:0;
-    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
-    height:150px;
+    box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.1);
+    height: 120px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
+    vertical-align: top;
+    line-height: 19.5px;
 }
 
 img {
@@ -170,7 +173,6 @@ h5 {
 
 label {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18;
 }
 
 form input[type="submit"] {
@@ -217,6 +219,20 @@ form input[type="reset"] {
     background: #ffffff;
     border: 2px solid #d1d1d1;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+form input[type="text"] {
+    
+    
+    
+    padding: 6px;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.1);
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
 }
 
 .textcols {
