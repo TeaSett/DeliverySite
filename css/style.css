@@ -195,3 +195,36 @@ form input[type="submit"] {
     border: 2px solid #d1d1d1;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
+
+form input[type="reset"] {
+    appearance:none;
+    -webkit-appearance:none;
+
+    line-height: 2;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    padding: 0px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.15s ease-in-out;
+
+    border-radius: 10px;
+    color: #242424;
+    background: #ffffff;
+    border: 2px solid #d1d1d1;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.textcols {
+	column-width: 40px;
+	column-count: 2;
+	column-gap: 7px;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+	background: #ffffff;
+}
