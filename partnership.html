@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>Сотрудничество</title>
         <link rel="stylesheet" href="css/style.css">
+        <script src="scripts/captcha.js"></script>
     </head>
     <body>
         <div class="container">
@@ -24,10 +25,23 @@
                     <p class="bott">Ozon Amazon Wildberries AliExpress Yandex.Market Citilink M.Video Eldorado IKEA</p>
                     <h5>По вопросам сотрудничества можете написать нам на почту</h5>
                     <form style="margin-bottom: 20px;" action="mailto:lobastov5442@gmail.com" method="get">
+                        <label style="font-size: 16px;" id="nums" for="result"></label>
+                        <input oninput="res = this.value" id="result" type="text">
+                        <script>
+                            nums = document.getElementById("nums");
+                            nums.innerHTML = generateNum() + " + " + generateNum() + " =";
+                        </script>
                         <input type="hidden" name="subject" value="Для сотрудничества" />
                         <label style="font-size: 16px;" for="msg">Письмо:</label>
                         <textarea id="msg" name="body"></textarea>
-                        <input type="submit" value="Отправить" />
+                        <input id="send" type="submit" value="Отправить" />
+                        <script>
+                            send.disabled = "true"
+                            result.addEventListener("input", function () {
+                                if (check(result.value)) send.disabled = '';
+                                else send.disabled = 'disabled';
+                            });
+                        </script>
                         <input type="reset" value="Очистить" />
                     </form>
                 </section>
