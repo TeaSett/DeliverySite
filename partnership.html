@@ -26,7 +26,7 @@
                     <h5>По вопросам сотрудничества можете написать нам на почту</h5>
                     <form style="margin-bottom: 20px;" action="mailto:lobastov5442@gmail.com" method="get">
                         <label style="font-size: 16px;" id="nums" for="result"></label>
-                        <input oninput="res = this.value" id="result" type="text">
+                        <input id="result" type="text">
                         <script>
                             nums = document.getElementById("nums");
                             nums.innerHTML = generateNum() + " + " + generateNum() + " =";

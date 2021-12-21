@@ -1,4 +1,4 @@
-var a, b, res;
+var a, b;
 
 function setAB(num) {
     if (a == undefined) a = num;
