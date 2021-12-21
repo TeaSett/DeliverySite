@@ -12,11 +12,5 @@ function generateNum() {
 }
 
 function check(num) {
-    if (a+b == num) {
-        console.log(a + "+" + b + "=" + num);
-        return true
-    } else {
-        console.log(a + "+" + b + "≠" + num);
-        return false;
-    }
+    return a+b == num;
 }
